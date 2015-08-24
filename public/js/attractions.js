@@ -19,6 +19,8 @@ $(document).ready(function() {
         return true;
       }
     });
+
+    console.log('here', selected);
     return selected;
   }
 

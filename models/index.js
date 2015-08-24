@@ -1,4 +1,6 @@
 var mongoose = require('mongoose');
+var findOrCreate = require('mongoose-findorcreate');
+
 mongoose.connect('mongodb://localhost/tripplanner');
 mongoose.connection.on('error', console.error.bind(console, 'connection error:'));
 

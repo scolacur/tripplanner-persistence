@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+var findOrCreate = require('mongoose-findorcreate');
 
 var DaySchema = new mongoose.Schema({
   number: Number,

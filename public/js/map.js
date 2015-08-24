@@ -19,10 +19,10 @@ var mapModule = (function(){
     map.fitBounds(bounds);
   }
 
-  exports.drawAttraction = function (attraction) {
+  exports.drawAttraction = function (attraction, type) {
     var coords = attraction.place[0].location,
         options = {
-          icon: iconPath[attraction.type],
+          icon: iconPath[type],
           position: new google.maps.LatLng(coords[0], coords[1]),
           map: map,
           animation: google.maps.Animation.DROP
@@ -127,4 +127,3 @@ var mapModule = (function(){
   return exports;
 
 }());
-
