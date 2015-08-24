@@ -1,6 +1,6 @@
 body {
   padding-top: 50px;
-  background: #c1b5ad;
+  background: #A1D8B1;
   font-family: 'Varela Round', sans-serif;
   min-width: -webkit-min-content; }
 
@@ -9,11 +9,11 @@ body {
   border-right: 2px solid #b1a398; }
 
 .navbar-inverse {
-  background: #736357;
-  border-color: #564a41; }
+  background: #A1D8B1;
+  border-color: #455655; }
 
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
-  color: #a8c9dd; }
+  color: #455655; }
 
 .navbar-inverse .navbar-brand {
   padding: 12px 15px;
@@ -63,14 +63,15 @@ select {
   -webkit-appearance: menulist-button; }
 
 .btn-primary {
-  background: #5f9bc0;
-  border-color: #5797bd; }
+  background: #F88AAF;
+  border-color: #F88AAF; }
   .btn-primary:hover {
-    background: #4283aa;
-    border-color: #3f7da2; }
+    background: white;
+    color: #F88AAF;
+    border-color: white; }
 
 h4 {
-  color: #aaa;
+  color: #455655;
   margin-top: 0; }
 
 h3 {
@@ -92,20 +93,21 @@ h3 {
   width: 30px;
   height: 30px;
   padding: 5px 5px;
+  margin: 2px;
   background: transparent;
-  border-color: #a8c9dd;
-  color: #a8c9dd; }
+  border-color: #F88AAF;
+  color: #F88AAF; }
   .day-btn:hover {
     border-color: #fff;
     color: #fff; }
   .day-btn.current-day {
-    background: #a8c9dd;
-    color: #736357; }
+    background: #F88AAF;
+    color: #455655; }
     .day-btn.current-day:hover {
-      background: #fff; }
+      background: #F88AAF; }
 
 .panel-default {
-  background: #efecea;
+  background: #60BDAF;
   border-radius: 8px;
   border-width: 0;
   margin-bottom: 0; }
@@ -131,10 +133,15 @@ h3 {
 #day-title {
   display: inline-block;
   padding: 5px;
-  border: 1px solid #736357;
+  border: 1px solid #455655;
   border-radius: 5px; }
   #day-title > * {
     display: inline-block;
     vertical-align: middle; }
   #day-title > .remove {
     margin-left: 1em; }
+
+.btn-danger {
+  background-color: #F88AAF;
+  border-color: #F88AAF;
+}
